@@ -4,7 +4,7 @@
   <remote  name="github" fetch="https://github.com/NTeditor/" />
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4"  />
 
-  <project path="common" name="realme_rmx3834_common" remote="github" revision="main" />
+  <project path="common" name="realme_rmx3834_common" remote="github" revision="ksu-next" />
   <project path="anykernel" name="realme_rmx3834_anykernel" remote="github" revision="main" />
   <project path="magiskboot" name="realme_rmx3834_magiskboot" remote="github" revision="main" />
 
