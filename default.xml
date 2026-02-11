@@ -2,11 +2,13 @@
 <manifest>
   <remote  name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <remote  name="github" fetch="https://github.com/NTeditor/" />
-  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
-  <project path="build" name="kernel/build" />
+  <default revision="master-kernel-build-2021" remote="aosp" sync-j="4"  />
+
   <project path="common" name="realme_rmx3834_common" remote="github" revision="main" />
   <project path="anykernel" name="realme_rmx3834_anykernel" remote="github" revision="main" />
   <project path="magiskboot" name="realme_rmx3834_magiskboot" remote="github" revision="main" />
+
+  <project path="build" name="kernel/build" clone-depth="1" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
