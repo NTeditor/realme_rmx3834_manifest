@@ -9,7 +9,7 @@
   <project path="anykernel" name="realme_rmx3834_anykernel" remote="github" revision="main" />
   <project path="mkbootimg" name="realme_rmx3834_mkbootimg" remote="github" revision="main" />
 
-  <project path="KernelSU-Next" name="KernelSU-Next" remote="ksu" revision="refs/tags/v3.1.0-legacy-susfs" />
+  <project path="KernelSU-Next" name="KernelSU" remote="ksu" revision="refs/tags/v3.1.0-legacy-susfs" />
 
   <project path="build" name="kernel/build" clone-depth="1" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
