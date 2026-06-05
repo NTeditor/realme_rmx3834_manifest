@@ -5,7 +5,7 @@
   <remote  name="ksu" fetch="https://github.com/KernelSU-Next/" />
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4"  />
 
-  <project path="common" name="realme_rmx3834_common" remote="github" revision="main" />
+  <project path="common" name="realme_rmx3834_common" remote="github" revision="refs/tags/ksun-v3.1.0-susfs" />
   <project path="anykernel" name="realme_rmx3834_anykernel" remote="github" revision="main" />
   <project path="mkbootimg" name="realme_rmx3834_mkbootimg" remote="github" revision="main" />
 
